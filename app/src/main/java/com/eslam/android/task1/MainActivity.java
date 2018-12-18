@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText email, password, passAgain, mobNumber;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         passAgain = (EditText) findViewById(R.id.again);
         mobNumber = (EditText) findViewById(R.id.mob);
 
+        //TextView initialization
         TextView Continue = (TextView) findViewById(R.id.cont);
         Continue.setOnClickListener(new View.OnClickListener() {
             @Override
